@@ -1,16 +1,16 @@
 div.straght1 {
-	position: relative;
+	position: fixed;
 	background-color: gray;
 	height: 30px;
+	width: 100%;
 	margin: 0px auto;
 	border: 0px;
 	text-align: center;
-	background-attachment: fixed;
 }
 
 div.straght2 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0%;
 	background-color: gray;
 	height: 30px;
 	width: 100%;
@@ -19,38 +19,35 @@ div.straght2 {
 }
 
 div.trangle1 {
-	position: absolute;
+	position: fixed;
 	top: 0px;
     width: 0;
     height: 0;
     border-top: 120px solid gray; 
     border-right: 120px solid transparent;
-	background-attachment: fixed;
 }
 
 div.trangle2 {
-	position: absolute;
+	position: fixed;
 	top: 0px;
     width: 0;
     height: 0;
     border-top: 80px solid #F1F1F1; 
     border-right: 80px solid transparent;
-	background-attachment: fixed;
 }
 
 div.trangle3 {
-	position: absolute;
+	position: fixed;
 	top: 0px;
     width: 0;
     height: 0;
     border-top: 60px solid gray; 
     border-right: 60px solid transparent;
-	background-attachment: fixed;
 }
 
 div.trangle4 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0%;
 	right: 0px;
     width: 0;
     height: 0;
@@ -60,7 +57,7 @@ div.trangle4 {
 
 div.trangle5 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0%;
 	right: 0px;
     width: 0;
     height: 0;
@@ -70,7 +67,7 @@ div.trangle5 {
 
 div.trangle6 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0%;
 	right: 0px;
     width: 0;
     height: 0;
@@ -83,9 +80,14 @@ div.tit{
 	top: 70px;
 	width: 100%;
 	text-align:center;
-	background-attachment: fixed;
 	box-shadow: 0px 10px 10px 1px gray;
 	font-family: "微軟正黑體";
+}
+
+div.content{
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
 h2.tit{
@@ -94,6 +96,24 @@ h2.tit{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+}
+
+h4.smtit{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	margin: 0 auto;
+	width: 80%;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+}
+
+p.content{
+	position: absolute;
+	top: 20%;
+	left: 13%;
+	font-size: 18px;
 }
 
 li.index{
