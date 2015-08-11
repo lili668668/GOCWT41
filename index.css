@@ -1,4 +1,50 @@
-#main{
+div.straght {
 	position: relative;
-	background: url("./picture/contentbg.jpg") repeat;
+	background-color: gray;
+	height: 30px;
+	margin: 0px auto;
+	border: 0px;
+	text-align: center;
+}
+
+div.trangle1 {
+	position: absolute;
+	top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 200px solid gray; 
+    border-right: 200px solid transparent;
+}
+
+div.trangle2 {
+	position: absolute;
+	top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 160px solid white; 
+    border-right: 160px solid transparent;
+}
+
+div.trangle3 {
+	position: absolute;
+	top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 140px solid gray; 
+    border-right: 140px solid transparent;
+}
+
+li.index{
+	display: inline;
+	margin: 60px;
+	font-family: "微軟正黑體";
+	color: white;
+}
+
+body {
+	display:inline;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(128, 128, 128, 0.11);
 }
