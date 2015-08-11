@@ -107,6 +107,7 @@ h4.smtit{
 	padding-left: 15px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid gray;
+	font-family: 'Microsoft JhengHei','PT Sans Narrow','Source Han Sans TWHK',sans-serif;
 }
 
 p.content{
@@ -114,6 +115,7 @@ p.content{
 	top: 20%;
 	left: 13%;
 	font-size: 18px;
+	font-family: 'Microsoft JhengHei','PT Sans Narrow','Source Han Sans TWHK',sans-serif;
 }
 
 li.index{
