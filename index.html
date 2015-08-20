@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head lang="zh">
 		<title>能夠報上CWT41嗎？</title>
+		<meta name="author" content="lili668668球魚">
 		<meta name="description" content="想要報上CWT41，要努力趕稿。">
+		<meta name="keywords" content="CWT41,趕稿中">
 		<meta http.eqiv="Content Type" content="text/html" charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="index.css" />
 		<link rel="shortcut icon" href="./picture/GOCWT41.ico" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a#titindex").hide();
+				$("a#titpublication").hide();
+				$("a#titmembers").hide();
+				$("img#ptindex").hover(function(){
+					$(this).hide(50);
+					$("a#titindex").show(50);
+				});
+				$("a#titindex").hover(function(){
+				}, function(){
+					$(this).hide(50);
+					$("img#ptindex").show(50);
+				});
+				$("img#ptpublication").hover(function(){
+					$(this).hide(50);
+					$("a#titpublication").show(50);
+				});
+				$("a#titpublication").hover(function(){
+				}, function(){
+					$(this).hide(50);
+					$("img#ptpublication").show(50);
+				});
+				$("img#ptmembers").hover(function(){
+					$(this).hide(50);
+					$("a#titmembers").show(50);
+				});
+				$("a#titmembers").hover(function(){
+				}, function(){
+					$(this).hide(50);
+					$("img#ptmembers").show(50);
+				});
+			});
+		</script>
 	</head>
-	<body>
+	<body id="index">
 		<div class="tit">
 			<h2 class="tit">能夠報上CWT41嗎？</h2>
 		</div>
-		<div class="content" id="index" style="top: 120px;" >
+		<div class="content" style="top: 120px;" >
 			<h4 class="smtit">預計參加場次</h4>
 			<p class="content">所以說看標題是很重要的</p>
 		</div>
@@ -39,9 +75,18 @@
 		<div class="trangle3">
 		</div>
 		<div class="straght1">
-			<li class="index"><a href="#index" class="index">首頁</a></li>
-			<li class="index"><a href="#publication" class="index">刊物介紹</a></li>
-			<li class="index"><a href="#members" class="index">社團成員介紹</a></li>
+			<li class="index">
+				<a href="#index" class="index" id="titindex">首頁</a>
+				<img id="ptindex" src="./picture/index4.png" height="30px" ></img>
+			</li>
+			<li class="index">
+				<a href="#publication" class="index" id="titpublication">刊物介紹</a>
+				<img id="ptpublication" src="./picture/book.png" height="30px" ></img>
+			</li>
+			<li class="index">
+				<a href="#members" class="index" id="titmembers">社團成員介紹</a>
+				<img id="ptmembers" src="./picture/people.png" height="30px" ></img>
+			</li>
 		</div>
 	</body>
 </html>

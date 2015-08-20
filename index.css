@@ -129,10 +129,7 @@ a.index{
 	text-decoration: blink;
 	font-family: "微軟正黑體";
 	color: white;
-}
-
-.index:hover{
-	color: black;
+	font-size: 25px;
 }
 
 body {
