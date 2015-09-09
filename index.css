@@ -118,6 +118,14 @@ p.content{
 	font-family: 'Microsoft JhengHei','PT Sans Narrow','Source Han Sans TWHK',sans-serif;
 }
 
+div.article{
+	position: absolute;
+	top: 20%;
+	left: 13%;
+	font-size: 18px;
+	font-family: 'Microsoft JhengHei','PT Sans Narrow','Source Han Sans TWHK',sans-serif;
+}
+
 h2.content{
 	position: absolute;
 	top: 20%;
