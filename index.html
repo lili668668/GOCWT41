@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head lang="zh">
-		<title>能夠報上CWT41嗎？</title>
+	<head lang="zh">
+		<title>相濡以墨</title>
 		<meta name="author" content="lili668668球魚">
 		<meta name="description" content="想要報上CWT41，要努力趕稿。">
 		<meta name="keywords" content="CWT41,趕稿中">
@@ -9,26 +9,180 @@
 		<link rel="stylesheet" type="text/css" href="index.css" />
 		<link rel="shortcut icon" href="./picture/GOCWT41.ico" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    </head>
-    <body>
-        <div>
-			<div class="straght2">
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a#titindex").hide();
+				$("a#titpublication").hide();
+				$("a#titmembers").hide();
+				$("img#ptindex").hover(function(){
+					$(this).hide(50);
+					$("a#titindex").show(50);
+				});
+				$("a#titindex").hover(function(){
+				}, function(){
+					$(this).hide(50);
+					$("img#ptindex").show(50);
+				});
+				$("img#ptpublication").hover(function(){
+					$(this).hide(50);
+					$("a#titpublication").show(50);
+				});
+				$("a#titpublication").hover(function(){
+				}, function(){
+					$(this).hide(50);
+					$("img#ptpublication").show(50);
+				});
+				$("img#ptmembers").hover(function(){
+					$(this).hide(50);
+					$("a#titmembers").show(50);
+				});
+				$("a#titmembers").hover(function(){
+				}, function(){
+					$(this).hide(50);
+					$("img#ptmembers").show(50);
+				});
+				$("a#titindex").click(function(){
+					$("html,body").animate({
+						scrollTop: $("#index").offset().top
+					},900);
+				});
+				$("a#titpublication").click(function(){
+					$("html,body").animate({
+						scrollTop: $("#publication").offset().top
+					},900);
+				});
+				$("a#titmembers").click(function(){
+					$("html,body").animate({
+						scrollTop: $("#members").offset().top + 50
+					},900);
+				});
+				
+				$(".con").hide();
+				$("#newPub").click(function(){
+					$("#oldPubCon .con").hide();
+					$("#newPubCon .con").show(200);
+					$("html,body").animate({
+						scrollTop: $("#publication").offset().top + 150
+					},900);
+				});
+				$("#oldPub").click(function(){
+					$("#newPubCon .con").hide();
+					$("#oldPubCon .con").show(200);
+					$("html,body").animate({
+						scrollTop: $("#publication").offset().top + 150
+					},900);
+				});
+			});
+		</script>
+	</head>
+	<body id="index">
+		<div class="tit">相濡以墨</div>
+		<div class="content" style="top: 200px; height: 700px;">
+			<h1>預計參加場次</h1>
+			<h3>你聽過CWT41嗎？</h3>
+			<br><br><br>
+		</div>
+		<div class="content" id="publication" style="background-color: #4A4A4A;">
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<h1>刊物介紹</h1>
+			<input type="button" id="newPub" value="新刊" />
+			<input type="button" id="oldPub" value="既刊" />
+			<div class="PubCon" id="newPubCon">
+				<div class="text con">
+					<h3>執子之手</h3>
+					<p><strong>全職高手林敬言x方銳原作衍生同人小說</strong></p>
+					<ul>
+						<li>作者：弗夜</li>
+						<li>字數：暫定三萬</li>
+						<li>價格：未定</li>
+					</ul>
+				</div>
+				<div class="text con">
+					<h3>月X傳</h3>
+					<p><strong>特殊傳說的人物穿越至沉月之鑰</strong></p>
+					<ul>
+						<li>作者：球魚</li>
+						<li>繪者：微微冰</li>
+						<li>字數；暫定三萬</li>
+						<li>價格：未定</li>
+					</ul>
+				</div>
+				<div class="text con">
+					<h3>(書名未定)</h3>
+					<p><strong>銀魂 土銀同人小說</strong></p>
+					<ul>
+						<li>作者：阿丕</li>
+						<li>字數：暫定一萬~一萬五</li>
+						<li>價格：未定</li>
+					</ul>
+				</div>
 			</div>
-        </div>
+			<div class="PubCon" id="oldPubCon">
+				<div class="text con">
+					<h3>Life is ____.</h3>
+					<p><strong>全職高手葉家兄弟中心同人小說(無CP)</strong></p>
+					<ul>
+						<li>作者：弗夜</li>
+						<li>字數：兩萬七</li>
+						<li>價格：100<br>※餘少量</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="members" class="content" style="background-color:#2F2F2F;">
+			<h1>社團成員介紹</h1>
+			<div class="text">
+				<h3>弗夜</h3>
+				<p class="photo"><img class="photo" src="./picture/notNight.jpg" /></p>
+				<p>同人寫手與coser，目前全職高手一直線。 </p>
+				<p>LOFTER：<a href="http://star-night.lofter.com/">流光瞬息</a></p>
+				<p>plurk：<a href="http://www.plurk.com/yms41522">弗夜ヾ(●゜▽゜●)♡ @yms41522</a>
+				</p>
+			</div>
+			<div class="text">
+				<h3>球魚</h3>
+				<p class="photo"><img class="photo" style="height: 70%;" src="./picture/ballfish.JPG" style="width: 20%;" /></p>
+				<p>初次出刊的小寫手，不是coser</p>
+				<p>特傳與沉月好書不推嗎？喜歡就跳坑喔。</p>
+				<p>沒有個人站。</p>
+			</div>
+			<div class="text">
+				<h3>阿丕</h3>
+				<p class="photo"><img class="photo" src="./picture/aPi.jpg" /></p>
+				<p>渣coser兼超低產文手，內心住著大叔野獸</p>
+				<p>R18通常運轉</p>
+				<p>天空：<a href="http://blog.yam.com/lucky22lucky22">May Paradise</a></p>
+				<p>噗浪：<a href="http://www.plurk.com/lucky22lucky22">阿丕/想跟16歲的眼鏡MB滾床 </a></p>
+			</div>
+			<div class="text">
+				<h3>山二子</h3>
+				<p class="photo"><img class="photo" src="./picture/3210.jpg" /></p>
+				<p>繪手及寫手，產量世界低。</p>
+				<p>現任職黏在大俱利伽羅後頸的一根兔毛。</p>
+				<p>LOFTER：<a href="http://futago0526.lofter.com">昂首顧盼</a></p>
+				<p>PLURK：<a href="http://www.plurk.com/futago0526">辛戌山二子是IKE手上的麥</a></p>
+			</div>
+		</div>
 		<div class="straght1">
 			<li class="index">
-				<a href="" class="index" id="titindex">首頁</a>
-				<img id="ptindex" src="./picture/index4.png" height="30px" ></img>
+				<a href="#" class="index" id="titindex">首頁</a>
+				<img id="ptindex" src="./picture/index4.png" height="50px" ></img>
 			</li>
 			<li class="index">
-				<a href="" class="index" id="titpublication">刊物介紹</a>
-				<img id="ptpublication" src="./picture/book.png" height="30px" ></img>
+				<a href="#" class="index" id="titpublication">刊物介紹</a>
+				<img id="ptpublication" src="./picture/book.png" height="50px" ></img>
 			</li>
 			<li class="index">
-				<a href="" class="index" id="titmembers">社團成員介紹</a>
-				<img id="ptmembers" src="./picture/people.png" height="30px" ></img>
+				<a href="#members" class="index" id="titmembers">社團成員介紹</a>
+				<img id="ptmembers" src="./picture/people.png" height="50px" ></img>
 			</li>
 		</div>
-
-    </body>
+	</body>
 </html>
