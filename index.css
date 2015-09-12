@@ -18,59 +18,9 @@ div.straght2 {
 	border: 0px;
 }
 
-div.trangle1 {
-	position: fixed;
-	top: 0px;
-    width: 0;
-    height: 0;
-    border-top: 120px solid gray; 
-    border-right: 120px solid transparent;
-}
-
-div.trangle2 {
-	position: fixed;
-	top: 0px;
-    width: 0;
-    height: 0;
-    border-top: 80px solid #F1F1F1; 
-    border-right: 80px solid transparent;
-}
-
-div.trangle3 {
-	position: fixed;
-	top: 0px;
-    width: 0;
-    height: 0;
-    border-top: 60px solid gray; 
-    border-right: 60px solid transparent;
-}
-
-div.trangle4 {
-	position: absolute;
-	bottom: 0%;
-	right: 0px;
-    width: 0;
-    height: 0;
-    border-bottom: 120px solid gray; 
-    border-left: 120px solid transparent;
-}
-
-div.trangle5 {
-	position: absolute;
-	bottom: 0%;
-	right: 0px;
-    width: 0;
-    height: 0;
-    border-bottom: 80px solid #F1F1F1; 
-    border-left: 80px solid transparent;
-}
-
-div.trangle6 {
-	position: absolute;
-	bottom: 0%;
-	right: 0px;
-    width: 0;
-    height: 0;
-    border-bottom: 60px solid gray; 
-    border-left: 60px solid transparent;
+li.index{
+	display: inline;
+	margin: 60px;
+	font-family: "微軟正黑體";
+	color: white;
 }
