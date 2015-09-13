@@ -2,7 +2,7 @@ div.straght1 {
 	position: fixed;
 	background-color: gray;
 	top: 0%;
-	height: 50px;
+	height: 60px;
 	width: 100%;
 	margin: 0px auto;
 	border: 0px;
@@ -13,6 +13,7 @@ div.tit{
 	position: relative;
 	top: 120px;
 	width: 100%;
+	height: 120px;
 	text-align:center;
 	box-shadow: 0px 10px 10px 1px gray;
 	background-color: #383838;
@@ -79,8 +80,7 @@ div.content h3 {
 }
 
 .PubCon {
-	position: absolute;
-	top: 50%;
+	position: relative;
 }
 
 div.text * {
@@ -101,8 +101,8 @@ div.text {
 }
 
 img.photo {
-	height: 30%;
-	width: 30%;
+	height: 50%;
+	width: 50%;
 	margin: 0 0 0 0;
 }
 
