@@ -62,14 +62,14 @@
 					$("#oldPubCon .con").hide();
 					$("#newPubCon .con").show(200);
 					$("html,body").animate({
-						scrollTop: $("#publication").offset().top + 150
+						scrollTop: $("#publication").offset().top
 					},900);
 				});
 				$("#oldPub").click(function(){
 					$("#newPubCon .con").hide();
 					$("#oldPubCon .con").show(200);
 					$("html,body").animate({
-						scrollTop: $("#publication").offset().top + 150
+						scrollTop: $("#publication").offset().top
 					},900);
 				});
 			});
@@ -77,9 +77,11 @@
 	</head>
 	<body id="index">
 		<div class="tit">相濡以墨</div>
-		<div class="content" style="top: 250px; height: 700px;">
-			<h1>預計參加場次</h1>
-			<h3>你聽過CWT41嗎？</h3>
+		<div class="content" style="top: 250px;">
+			<h1 style="font-size: 60px;">參加場次</h1>
+			<br />
+			<h2 style="font-size: 30px;">(預計兩日)</h2>
+			<h2 style="font-size: 30px;">你聽過CWT41嗎？</h2>
 			<br><br><br>
 		</div>
         <div class="content" id="publication" style="background-color: #4A4A4A;">
@@ -125,6 +127,7 @@
 				<div class="text con">
 					<h3>Life is ____.</h3>
 					<p><strong>全職高手葉家兄弟中心同人小說(無CP)</strong></p>
+					<p class="photo"><img class="photo" src="./picture/lifeIs.png" /></p>
 					<ul>
 						<li>作者：弗夜</li>
 						<li>字數：兩萬七</li>
