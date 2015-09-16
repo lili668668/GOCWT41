@@ -36,6 +36,10 @@ li.index{
 	color: white;
 }
 
+div.text li{
+	font-size: 15px;
+}
+
 a.index{
 	text-decoration: blink;
 	font-family: "微軟正黑體";
@@ -84,7 +88,7 @@ div.content h6 {
 }
 
 div.content p {
-	font-size: 12px;
+	font-size: 15px;
 }
 
 #newPub {
@@ -129,4 +133,11 @@ img.photo {
 p.photo {
 	margin: 0 0 0 0;
 	width: 222px;
+}
+
+#publication{
+	background-image: url("./picture/IceFire6.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50% 100%;
 }
