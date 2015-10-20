@@ -91,16 +91,10 @@ div.content p {
 	font-size: 15px;
 }
 
-#newPub {
+.button {
 	font-size: 35px;
 	background-color: rgba(0, 0, 0, 0);
 	margin-right: 50px;
-}
-
-#oldPub {
-	font-size: 35px;
-	background-color: rgba(0, 0, 0, 0);
-	margin-left: 50px;
 }
 
 .PubCon {
